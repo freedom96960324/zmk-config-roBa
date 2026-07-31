@@ -101,8 +101,8 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt EXCL NUMBER_0
 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans      &trans  &kp F6        &kp F7        &kp F8        &kp F9        &mt QUESTION F10
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6      &trans  &trans        &trans        &trans        &trans        &kp F11
-&kp F7        &kp F8        &kp F9        &trans        &trans        &trans      &trans  &trans                                                  &kp F12
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6      &trans  &trans        &trans        &trans        &trans        &trans
+&kp F7        &kp F8        &kp F9        &trans        &trans        &trans      &trans  &trans                                                  &trans
             >;
         };
 
@@ -119,8 +119,8 @@
             bindings = <
 &kp Q             &kp W           &kp E         &kp R   &kp T                             &trans     &trans          &kp I           &kp O            &kp BACKSPACE
 &kp A             &kp S           &kp D         &kp F   &kp G      &trans      &trans     &trans     &trans          &kp UP_ARROW    &trans           &kp ENTER
-&kp LEFT_SHIFT    &kp M           &kp F2        &trans  &trans     &trans      &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RC(V)
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &kp SPACE  &trans      &kp SPACE  &kp SPACE                                                   &kp RC(C)
+&kp LEFT_SHIFT    &kp M           &kp F2        &trans  &trans     &trans      &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &kp SPACE  &trans      &kp SPACE  &kp SPACE                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
